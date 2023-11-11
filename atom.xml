@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>焚香的小站</title>
+  
+  <subtitle>凡事只做开头</subtitle>
+  <link href="https://uiuuyr.top/atom.xml" rel="self"/>
+  
+  <link href="https://uiuuyr.top/"/>
+  <updated>2023-11-11T15:29:50.983Z</updated>
+  <id>https://uiuuyr.top/</id>
+  
+  <author>
+    <name>焚香</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>OpenWrt的编译和使用</title>
+    <link href="https://uiuuyr.top/2023/10/22/OpenWrt%E7%9A%84%E7%BC%96%E8%AF%91%E5%92%8C%E4%BD%BF%E7%94%A8/"/>
+    <id>https://uiuuyr.top/2023/10/22/OpenWrt%E7%9A%84%E7%BC%96%E8%AF%91%E5%92%8C%E4%BD%BF%E7%94%A8/</id>
+    <published>2023-10-22T05:03:35.000Z</published>
+    <updated>2023-11-11T15:29:50.983Z</updated>
+    
+    
+    <summary type="html">OpenWrt的编译和使用</summary>
+    
+    
+    
+    <category term="教程" scheme="https://uiuuyr.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="openwrt" scheme="https://uiuuyr.top/tags/openwrt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>巫师三</title>
+    <link href="https://uiuuyr.top/2023/09/25/%E5%B7%AB%E5%B8%88%E4%B8%89/"/>
+    <id>https://uiuuyr.top/2023/09/25/%E5%B7%AB%E5%B8%88%E4%B8%89/</id>
+    <published>2023-09-25T13:29:45.000Z</published>
+    <updated>2023-09-25T13:31:59.258Z</updated>
+    
+    
+    <summary type="html">巫师三存档消失怎么办</summary>
+    
+    
+    
+    <category term="游戏" scheme="https://uiuuyr.top/categories/%E6%B8%B8%E6%88%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>docker相关帮助</title>
+    <link href="https://uiuuyr.top/2023/09/24/docker%E7%9B%B8%E5%85%B3%E5%B8%AE%E5%8A%A9/"/>
+    <id>https://uiuuyr.top/2023/09/24/docker%E7%9B%B8%E5%85%B3%E5%B8%AE%E5%8A%A9/</id>
+    <published>2023-09-24T07:31:55.000Z</published>
+    <updated>2023-09-29T09:53:56.347Z</updated>
+    
+    
+    <summary type="html">docker相关帮助</summary>
+    
+    
+    
+    <category term="docker" scheme="https://uiuuyr.top/categories/docker/"/>
+    
+    
+    <category term="教程" scheme="https://uiuuyr.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PyQt5的固定写法</title>
+    <link href="https://uiuuyr.top/2023/09/09/PyQt5%E7%9A%84%E5%9B%BA%E5%AE%9A%E5%86%99%E6%B3%95/"/>
+    <id>https://uiuuyr.top/2023/09/09/PyQt5%E7%9A%84%E5%9B%BA%E5%AE%9A%E5%86%99%E6%B3%95/</id>
+    <published>2023-09-09T14:46:27.000Z</published>
+    <updated>2023-09-09T14:54:56.855Z</updated>
+    
+    
+    <summary type="html">PyQt5的固定写法</summary>
+    
+    
+    
+    <category term="python" scheme="https://uiuuyr.top/categories/python/"/>
+    
+    
+    <category term="教程" scheme="https://uiuuyr.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>客户端没用所需特权的处理</title>
+    <link href="https://uiuuyr.top/2023/08/13/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%B2%A1%E7%94%A8%E6%89%80%E9%9C%80%E7%89%B9%E6%9D%83%E7%9A%84%E5%A4%84%E7%90%86/"/>
+    <id>https://uiuuyr.top/2023/08/13/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%B2%A1%E7%94%A8%E6%89%80%E9%9C%80%E7%89%B9%E6%9D%83%E7%9A%84%E5%A4%84%E7%90%86/</id>
+    <published>2023-08-13T06:02:02.000Z</published>
+    <updated>2023-08-13T06:38:09.775Z</updated>
+    
+    
+    <summary type="html">记录一次windows的权限处理</summary>
+    
+    
+    
+    <category term="问题处理" scheme="https://uiuuyr.top/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/"/>
+    
+    
+    <category term="windows" scheme="https://uiuuyr.top/tags/windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>读书记录</title>
+    <link href="https://uiuuyr.top/2023/08/07/%E8%AF%BB%E4%B9%A6%E8%AE%B0%E5%BD%95/"/>
+    <id>https://uiuuyr.top/2023/08/07/%E8%AF%BB%E4%B9%A6%E8%AE%B0%E5%BD%95/</id>
+    <published>2023-08-06T17:08:04.000Z</published>
+    <updated>2023-10-08T15:36:49.571Z</updated>
+    
+    
+    <summary type="html">读书记录</summary>
+    
+    
+    
+    <category term="读书" scheme="https://uiuuyr.top/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+    
+    <category term="记录" scheme="https://uiuuyr.top/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ffmpeg的使用方法</title>
+    <link href="https://uiuuyr.top/2023/08/01/ffmpeg%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/"/>
+    <id>https://uiuuyr.top/2023/08/01/ffmpeg%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</id>
+    <published>2023-08-01T06:25:15.000Z</published>
+    <updated>2023-10-17T02:16:40.796Z</updated>
+    
+    
+    <summary type="html">FFmpeg 是视频处理最常用的开源软件。它功能强大，用途广泛，大量用于视频网站和商业软件（比如 Youtube 和 iTunes），也是许多音频和视频格式的标准编码/解码实现。FFmpeg 本身是一个庞大的项目，包含许多组件和库文件，最常用的是它的命令行工具。本文介绍 FFmpeg 命令行如何处理视频，比桌面视频处理软件更简洁高效。</summary>
+    
+    
+    
+    <category term="教程" scheme="https://uiuuyr.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="FFmpeg" scheme="https://uiuuyr.top/tags/FFmpeg/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>双开steam及其游戏</title>
+    <link href="https://uiuuyr.top/2023/07/30/%E5%8F%8C%E5%BC%80steam%E5%8F%8A%E5%85%B6%E6%B8%B8%E6%88%8F/"/>
+    <id>https://uiuuyr.top/2023/07/30/%E5%8F%8C%E5%BC%80steam%E5%8F%8A%E5%85%B6%E6%B8%B8%E6%88%8F/</id>
+    <published>2023-07-30T15:23:01.000Z</published>
+    <updated>2023-07-30T15:32:59.718Z</updated>
+    
+    
+    <summary type="html">双开steam</summary>
+    
+    
+    
+    <category term="教程" scheme="https://uiuuyr.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="steam" scheme="https://uiuuyr.top/tags/steam/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>conda 基本使用方法</title>
+    <link href="https://uiuuyr.top/2023/07/26/conda%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/"/>
+    <id>https://uiuuyr.top/2023/07/26/conda%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</id>
+    <published>2023-07-26T08:45:58.000Z</published>
+    <updated>2023-07-26T08:44:31.841Z</updated>
+    
+    
+    <summary type="html">conda 常用命令</summary>
+    
+    
+    
+    <category term="python" scheme="https://uiuuyr.top/categories/python/"/>
+    
+    
+    <category term="教程" scheme="https://uiuuyr.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>docker版ASF的安装</title>
+    <link href="https://uiuuyr.top/2023/07/24/docker%E7%89%88ASF%E7%9A%84%E5%AE%89%E8%A3%85/"/>
+    <id>https://uiuuyr.top/2023/07/24/docker%E7%89%88ASF%E7%9A%84%E5%AE%89%E8%A3%85/</id>
+    <published>2023-07-24T14:43:02.000Z</published>
+    <updated>2023-08-10T09:31:35.895Z</updated>
+    
+    
+    <summary type="html">简介</summary>
+    
+    
+    
+    <category term="docker" scheme="https://uiuuyr.top/categories/docker/"/>
+    
+    
+    <category term="ASF" scheme="https://uiuuyr.top/tags/ASF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git的使用</title>
+    <link href="https://uiuuyr.top/2023/07/24/git%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>https://uiuuyr.top/2023/07/24/git%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
+    <published>2023-07-24T08:45:00.000Z</published>
+    <updated>2023-09-17T12:54:59.396Z</updated>
+    
+    
+    <summary type="html">git的使用方法</summary>
+    
+    
+    
+    <category term="教程" scheme="https://uiuuyr.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="git的使用" scheme="https://uiuuyr.top/tags/git%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>n1安装armbian以及安装docker、openwrt</title>
+    <link href="https://uiuuyr.top/2023/07/24/n1%E5%AE%89%E8%A3%85armbian%E4%BB%A5%E5%8F%8A%E5%AE%89%E8%A3%85docker%E3%80%81openwrt/"/>
+    <id>https://uiuuyr.top/2023/07/24/n1%E5%AE%89%E8%A3%85armbian%E4%BB%A5%E5%8F%8A%E5%AE%89%E8%A3%85docker%E3%80%81openwrt/</id>
+    <published>2023-07-24T04:45:58.000Z</published>
+    <updated>2023-10-16T08:14:30.146Z</updated>
+    
+    
+    <summary type="html">n1安装armbian后安装docker</summary>
+    
+    
+    
+    <category term="N1盒子" scheme="https://uiuuyr.top/categories/N1%E7%9B%92%E5%AD%90/"/>
+    
+    
+    <category term="armbian" scheme="https://uiuuyr.top/tags/armbian/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WinRAR深度去除弹窗广告</title>
+    <link href="https://uiuuyr.top/2023/07/09/WinRAR%E6%B7%B1%E5%BA%A6%E5%8E%BB%E9%99%A4%E5%BC%B9%E7%AA%97%E5%B9%BF%E5%91%8A/"/>
+    <id>https://uiuuyr.top/2023/07/09/WinRAR%E6%B7%B1%E5%BA%A6%E5%8E%BB%E9%99%A4%E5%BC%B9%E7%AA%97%E5%B9%BF%E5%91%8A/</id>
+    <published>2023-07-09T15:37:51.000Z</published>
+    <updated>2023-07-24T09:12:51.839Z</updated>
+    
+    
+    <summary type="html">WinRAR 是一款不错的解压缩软件，但还是收费软件，广告不少，今天就总结了一下网上的各路教程。</summary>
+    
+    
+    
+    <category term="教程" scheme="https://uiuuyr.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="WinRAR" scheme="https://uiuuyr.top/tags/WinRAR/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>wrap-cli的使用</title>
+    <link href="https://uiuuyr.top/2023/07/08/wrap-cli%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>https://uiuuyr.top/2023/07/08/wrap-cli%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
+    <published>2023-07-08T06:16:33.000Z</published>
+    <updated>2023-07-27T12:08:01.497Z</updated>
+    
+    
+    <summary type="html">现在纯 IPv6、nat IPv4 VPS 越来越多了，于是有人发现可以用 warp 解锁 Netflix、解决 Google 送中问题，但是大多数教程和一键脚本都是用 [wgcf](https://github.com/ViRb3/wgcf) 来实现的。其实 wgcf 有相对不低的延迟，大部分情况下使用这种方案会造成打开网页缓慢的问题。因此我们可以利用 warp 官方客户端来提供 socks5 给别的软件分流使用。</summary>
+    
+    
+    
+    <category term="教程" scheme="https://uiuuyr.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="wrap" scheme="https://uiuuyr.top/tags/wrap/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>火柴人 vs 数学(Math)</title>
+    <link href="https://uiuuyr.top/2023/06/27/%E7%81%AB%E6%9F%B4%E4%BA%BAvs%E6%95%B0%E5%AD%A6(Math)/"/>
+    <id>https://uiuuyr.top/2023/06/27/%E7%81%AB%E6%9F%B4%E4%BA%BAvs%E6%95%B0%E5%AD%A6(Math)/</id>
+    <published>2023-06-27T04:38:54.000Z</published>
+    <updated>2023-06-27T05:31:40.316Z</updated>
+    
+    
+    <summary type="html">hexo-tag-bilibili 的使用方法</summary>
+    
+    
+    
+    <category term="视频" scheme="https://uiuuyr.top/categories/%E8%A7%86%E9%A2%91/"/>
+    
+    
+    <category term="测试" scheme="https://uiuuyr.top/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>steam游戏</title>
+    <link href="https://uiuuyr.top/2023/06/27/steam%E6%B8%B8%E6%88%8F/"/>
+    <id>https://uiuuyr.top/2023/06/27/steam%E6%B8%B8%E6%88%8F/</id>
+    <published>2023-06-27T04:18:54.000Z</published>
+    <updated>2023-07-24T09:13:53.499Z</updated>
+    
+    
+    <summary type="html">hexo-tag-steamgame 的使用方法</summary>
+    
+    
+    
+    
+    <category term="教程" scheme="https://uiuuyr.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>节点搭建</title>
+    <link href="https://uiuuyr.top/2023/06/16/%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA/"/>
+    <id>https://uiuuyr.top/2023/06/16/%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA/</id>
+    <published>2023-06-16T14:07:26.000Z</published>
+    <updated>2023-09-13T16:03:41.389Z</updated>
+    
+    
+    <summary type="html">本系列教程需要有一定的网络基础知识，具体需要基础到什么程度，看完第一节教程如果基本了解在讲什么就差不多了，如果完全看不懂的话可能不适合自建节点，本文只是作为视频的资料补充和导航。</summary>
+    
+    
+    
+    <category term="教程" scheme="https://uiuuyr.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="vpn" scheme="https://uiuuyr.top/tags/vpn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://uiuuyr.top/2020/06/27/hello-world/"/>
+    <id>https://uiuuyr.top/2020/06/27/hello-world/</id>
+    <published>2020-06-27T04:18:54.000Z</published>
+    <updated>2023-06-27T05:03:51.753Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post.</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>
