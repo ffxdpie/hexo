@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>解决一个Windows下启动项重复的问题</title>
+      <link href="/2023/12/16/%E8%A7%A3%E5%86%B3%E4%B8%80%E4%B8%AAWindows%E4%B8%8B%E5%90%AF%E5%8A%A8%E9%A1%B9%E9%87%8D%E5%A4%8D%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+      <url>/2023/12/16/%E8%A7%A3%E5%86%B3%E4%B8%80%E4%B8%AAWindows%E4%B8%8B%E5%90%AF%E5%8A%A8%E9%A1%B9%E9%87%8D%E5%A4%8D%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h1 id="解决一个Windows下启动项重复的问题"><a href="#解决一个Windows下启动项重复的问题" class="headerlink" title="解决一个Windows下启动项重复的问题"></a>解决一个Windows下启动项重复的问题</h1><p>​    我喜欢Windows在运行的时候，任务管理器出现在右下的系统托盘里，便于监视系统的运行情况。为了能够开机自动运行任务管理器，我在”开始菜单”–&gt;“程序”–&gt;“启动”项中增加了指向任务管理器(taskmgr.exe)的快捷方式。这时问题出现了，当我开机的时候，taskmgr.exe会运行两次。</p><p>​    运行Windows自动的工具msconfig，发现startup栏中有两条taskmgr记录：</p><figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">taskmgr   C:<span class="string">\WINDOWS\System32\taskmgr.exe</span>   Common Startup</span><br><span class="line">taskmgr   C:<span class="string">\WINDOWS\System32\taskmgr.exe</span>   Startup</span><br></pre></td></tr></table></figure><p>​    为什么会出现Common Startup和Startup这两条记录呢？通过搜索互联网，我找到 <a href="https://mail.google.com/mail/u/0/#label/Study%2FComputer/131f97e61fa83fc0">参考资料一</a>。这篇文件详细介绍了msconfig中的这些startup记录是如何来的，自然也讲到了Common Startup和Startup的由来：（假设我登录Windows的用户名是tom）</p><p>​    1. Common Startup对应C:\Documents and Settings\ All Users\Start Menu\Programs\Startup目录下的项；</p><p>​    2. Startup对应C:\Documents and Settings\tom\Start Menu\Programs\Startup目录下的项。</p><p>​    文章还给出了一种验证的方法：右击“开始菜单”–&gt;“程序”–&gt;“启动”，在弹出的上下文菜单中，单击最上面的“打开”项，出来的目录是对应Startup项的；如果单击第二项“打开所有用户”，出来的目录是对应Common Startup项的。奇怪的是，我按照这种验证方法，出来目录的全都是指向All Users，没有指向tom这个用户的，这也是taskmgr.exe会运行两次的根本原因。</p><p>​    继续上网查找，找到了 <a href="http://topic.csdn.net/u/20101219/08/3068cb0f-4fae-4922-9bcf-cdeebf537037.html">参考资料二</a>，里面的大牛指出了上述行为是受注册表控制的。我打开我的注册表，看到了下面两条：</p><figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[HKEY_CURRENT_USER<span class="string">\Software\Microsoft\Windows\CurrentVersion\Explorer\</span> Shell Folders]</span><br><span class="line">        Start Menu = C:<span class="string">\Documents</span> <span class="keyword">and</span> Settings<span class="string">\All</span> Users<span class="string">\Start</span> Menu</span><br><span class="line">        Startup = C:<span class="string">\Documents</span> <span class="keyword">and</span> Settings<span class="string">\All</span> Users<span class="string">\Start</span> Menu<span class="string">\Programs\Startup</span></span><br><span class="line">[HKEY_CURRENT_USER<span class="string">\Software\Microsoft\Windows\CurrentVersion\Explorer\</span> User Shell Folders]</span><br><span class="line">        Start Menu = %ALLUSERSPROFILE%<span class="string">\Start</span> Menu</span><br><span class="line">        Startup = %ALLUSERSPROFILE%<span class="string">\Start</span> Menu<span class="string">\Programs\Startup</span></span><br></pre></td></tr></table></figure><p>​    很明显，第一条Shell Folders对应的是Common Startup，第二User Shell Folders条对应的是Startup。因为%ALLUSERSPROFILE%等于C:\Documents and Settings\All Users，所以我系统里的Common Startup和Startup指向了同一目录。</p><p>​    到此为止，终于找到真凶了，原来是注册表乱了。解决办法很简单，将注册表指向正确的位置就可以了。</p><p>​    参考资料：<br>​        一、<a href="https://mail.google.com/mail/u/0/#label/Study%2FComputer/131f97e61fa83fc0">https://mail.google.com/mail/u/0/#label/Study%2FComputer/131f97e61fa83fc0</a><br>​       二、<a href="http://topic.csdn.net/u/20101219/08/3068cb0f-4fae-4922-9bcf-cdeebf537037.html">http://topic.csdn.net/u/20101219/08/3068cb0f-4fae-4922-9bcf-cdeebf537037.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 问题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>OpenWrt的编译和使用</title>
       <link href="/2023/10/22/OpenWrt%E7%9A%84%E7%BC%96%E8%AF%91%E5%92%8C%E4%BD%BF%E7%94%A8/"/>
       <url>/2023/10/22/OpenWrt%E7%9A%84%E7%BC%96%E8%AF%91%E5%92%8C%E4%BD%BF%E7%94%A8/</url>
