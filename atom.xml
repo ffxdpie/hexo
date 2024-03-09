@@ -6,7 +6,7 @@
   <link href="https://uiuuyr.top/atom.xml" rel="self"/>
   
   <link href="https://uiuuyr.top/"/>
-  <updated>2024-01-13T07:33:26.704Z</updated>
+  <updated>2024-01-13T07:35:47.458Z</updated>
   <id>https://uiuuyr.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://uiuuyr.top/2024/01/13/mklink%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
     <id>https://uiuuyr.top/2024/01/13/mklink%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
     <published>2024-01-13T07:30:28.000Z</published>
-    <updated>2024-01-13T07:33:26.704Z</updated>
+    <updated>2024-01-13T07:35:47.458Z</updated>
     
     
     <summary type="html">mklink 是 Windows 操作系统中的命令行工具，用于创建符号链接（symbolic link）或硬链接（hard link）。这两种链接类型都是文件系统中的对象引用，它们允许将一个文件或目录链接到另一个位置，而无需复制实际的数据。</summary>
