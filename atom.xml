@@ -6,7 +6,7 @@
   <link href="https://uiuuyr.top/atom.xml" rel="self"/>
   
   <link href="https://uiuuyr.top/"/>
-  <updated>2024-01-13T07:35:47.458Z</updated>
+  <updated>2024-10-23T03:22:27.284Z</updated>
   <id>https://uiuuyr.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>fastapi</title>
+    <link href="https://uiuuyr.top/2024/10/23/fastapi/"/>
+    <id>https://uiuuyr.top/2024/10/23/fastapi/</id>
+    <published>2024-10-23T03:18:02.000Z</published>
+    <updated>2024-10-23T03:22:27.284Z</updated>
+    
+    
+    <summary type="html">简介</summary>
+    
+    
+    
+    <category term="分类" scheme="https://uiuuyr.top/categories/%E5%88%86%E7%B1%BB/"/>
+    
+    
+    <category term="标签" scheme="https://uiuuyr.top/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>mklink的使用</title>
@@ -152,7 +171,7 @@
     <link href="https://uiuuyr.top/2023/08/07/%E8%AF%BB%E4%B9%A6%E8%AE%B0%E5%BD%95/"/>
     <id>https://uiuuyr.top/2023/08/07/%E8%AF%BB%E4%B9%A6%E8%AE%B0%E5%BD%95/</id>
     <published>2023-08-06T17:08:04.000Z</published>
-    <updated>2023-10-08T15:36:49.571Z</updated>
+    <updated>2024-11-01T16:03:55.912Z</updated>
     
     
     <summary type="html">读书记录</summary>
@@ -370,21 +389,6 @@
     
     
     <category term="vpn" scheme="https://uiuuyr.top/tags/vpn/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://uiuuyr.top/2020/06/27/hello-world/"/>
-    <id>https://uiuuyr.top/2020/06/27/hello-world/</id>
-    <published>2020-06-27T04:18:54.000Z</published>
-    <updated>2023-06-27T05:03:51.753Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post.</summary>
-    
-    
-    
     
   </entry>
   
