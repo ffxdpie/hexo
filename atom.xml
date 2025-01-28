@@ -6,7 +6,7 @@
   <link href="https://uiuuyr.top/atom.xml" rel="self"/>
   
   <link href="https://uiuuyr.top/"/>
-  <updated>2024-10-23T03:22:27.284Z</updated>
+  <updated>2025-01-28T02:15:08.931Z</updated>
   <id>https://uiuuyr.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开源模型搭建</title>
+    <link href="https://uiuuyr.top/2025/01/28/%E5%BC%80%E6%BA%90%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/"/>
+    <id>https://uiuuyr.top/2025/01/28/%E5%BC%80%E6%BA%90%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/</id>
+    <published>2025-01-28T02:13:52.000Z</published>
+    <updated>2025-01-28T02:15:08.931Z</updated>
+    
+    
+    <summary type="html">简介</summary>
+    
+    
+    
+    <category term="分类" scheme="https://uiuuyr.top/categories/%E5%88%86%E7%B1%BB/"/>
+    
+    
+    <category term="标签" scheme="https://uiuuyr.top/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>fastapi</title>
@@ -370,25 +389,6 @@
     
     
     <category term="教程" scheme="https://uiuuyr.top/tags/%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>节点搭建</title>
-    <link href="https://uiuuyr.top/2023/06/16/%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA/"/>
-    <id>https://uiuuyr.top/2023/06/16/%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA/</id>
-    <published>2023-06-16T14:07:26.000Z</published>
-    <updated>2023-09-13T16:03:41.389Z</updated>
-    
-    
-    <summary type="html">本系列教程需要有一定的网络基础知识，具体需要基础到什么程度，看完第一节教程如果基本了解在讲什么就差不多了，如果完全看不懂的话可能不适合自建节点，本文只是作为视频的资料补充和导航。</summary>
-    
-    
-    
-    <category term="教程" scheme="https://uiuuyr.top/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="vpn" scheme="https://uiuuyr.top/tags/vpn/"/>
     
   </entry>
   
